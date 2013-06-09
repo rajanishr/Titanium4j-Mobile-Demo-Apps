@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:m="urn:import:com.emitrom.ti4j.mobile.client.ui">
+	
+	<ui:with type="com.chazaqdev.ti4jexample.client.utils.Styles" field="res"></ui:with>
+	
+	<m:View ui:field="main" width="100%" height="58dp" backgroundColor="#ccc">
+		<m:ImageView ui:field="thumb" width="50dp" left="4dp"/>
+		<m:Label ui:field="title" left="54dp" top="4dp" right="24dp" font="{res.getYT_NAME_FONT}" height="44dp" color="#444">Title:</m:Label>
+		<m:Label ui:field="date" left="54dp" bottom="4dp" font="{res.getYT_DATA_FONT}" color="#aaa">Date</m:Label>
+		<m:Label ui:field="rating" right="4dp" font="{res.getYT_RATING_FONT}" color="red">Rating /5</m:Label>
+	</m:View>
+
+</ui:UiBinder> 

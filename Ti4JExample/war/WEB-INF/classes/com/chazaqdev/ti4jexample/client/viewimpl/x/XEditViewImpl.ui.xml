@@ -1,0 +1,17 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:ti="urn:import:com.emitrom.ti4j.mobile.client.ui">
+
+	<ui:with type="com.emitrom.ti4j.mobile.client.ui.UI" field="res"></ui:with>
+	
+	<ti:View backgroundColor="#ddd" top="0" left="0" right="0" bottom="0">
+	
+		<ti:Button ui:field="btnBack" left="4dp" top="4dp" width="50dp">Home</ti:Button>
+		<ti:Label ui:field="lblHeader" top="4dp">Edit X</ti:Label>
+		<ti:Button ui:field="btnSave" top="4dp" right="4dp" width="50dp">Save</ti:Button>
+		
+		<ti:TextField backgroundColor="white" ui:field="txtName" left="4dp" right="4dp" top="20%">Name</ti:TextField>
+		<ti:TextField backgroundColor="white" ui:field="txtAmount" keyboardType="{res.KEYBOARD_NUMBER_PAD}" left="4dp" right="4dp" top="40%">1</ti:TextField>
+	</ti:View>
+
+</ui:UiBinder> 

@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+jarsExcludedFromWebInfLib=/Users/mike/Documents/CO/FrameworksAndLibraries/titanium4j-3.0/titanium4j-4.0.jar|/Users/mike/Documents/CO/Software/workspaces/FemmeFitness/TiExample/lib/titanium4j-3.1.jar|/Users/mike/Documents/CO/Software/workspaces/FemmeFitness/Ti4JExample/lib/titanium4j-3.1.jar
+warSrcDir=war
+warSrcDirIsOutput=true

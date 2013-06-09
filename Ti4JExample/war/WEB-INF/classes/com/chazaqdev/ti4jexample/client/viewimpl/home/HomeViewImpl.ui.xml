@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:m="urn:import:com.emitrom.ti4j.mobile.client.ui">
+	
+	<m:View backgroundColor="white" height="100%" width="100%">
+		<m:ImageView ui:field="whistle"  width="96dp" top="4dp" left="4dp"/>
+		<m:ImageView ui:field="finish" width="96dp" top="4dp" right="4dp" />
+		<m:Button ui:field="btnEdit1" top="40%" width="100%">Edit 1</m:Button>
+		<m:Button ui:field="btnEdit2" top="60%" width="100%">Edit 2</m:Button>
+		<m:Button ui:field="btnYoutube" top="80%" width="100%">JSONP Youtube</m:Button>
+	</m:View>
+	
+</ui:UiBinder> 

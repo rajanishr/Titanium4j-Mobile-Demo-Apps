@@ -1,0 +1,37 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:ti="urn:import:com.emitrom.ti4j.mobile.client.ui">
+	<ui:import field="com.emitrom.ti4j.mobile.client.ui.iphone.SystemButtonStyle.*"/>
+	
+	<ui:with type="com.chazaqdev.ti4jexample.client.utils.Styles" field="res"/>
+	
+	<ti:View top="0" right="0" left="0" bottom="0" backgroundColor="#ddd">
+		<ti:Button  
+			ui:field="btnBack" 
+			top="0" 
+			left="0" 
+			height="50dp" 
+			width="60dp"
+			style="{SYSTEM_BUTTON_STYLE_PLAIN}"
+			color="white"
+			backgroundColor="#444"
+			text="HOME"
+			font="{res.getYT_HEADER_FONT}"
+			/>
+		<ti:TextField ui:field="txtSearch" backgroundColor="white" top="0" left="64dp" height="50dp" right="80dp">Search</ti:TextField>
+		<ti:Button 
+			ui:field="btnSearch" 
+			top="0" 
+			right="4dp" 
+			width="74dp" 
+			height="50dp" 
+			buttonStyle="{SYSTEM_BUTTON_STYLE_PLAIN}"
+			color="white"
+			backgroundColor="#38c0f4"
+			font="{res.getYT_HEADER_FONT}"
+			>SEARCH</ti:Button>
+		
+		<ti:ScrollView ui:field="lstResults" top="54dp" bottom="0dp" right="0" left="0"/>
+	</ti:View>
+	
+</ui:UiBinder> 
